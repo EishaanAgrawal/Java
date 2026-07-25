@@ -25,10 +25,10 @@
  
 // }
 
-import java.util.*;
+//import java.util.*;
 
-public class JavaBasics {
-    public static void main(String args[]){
+//public class JavaBasics {
+    //public static void main(String args[]){
         // int a = 10;
         // int b = ++a;
         // System.out.println(a);
@@ -56,5 +56,5 @@ public class JavaBasics {
         // int A = 10;
         // int B = 10;
         // System.out.println(A==B);
-    }
-}
+   // }
+//}
