@@ -134,7 +134,7 @@
         //     System.out.println("B is greater");
         // }
 
-//         //EVEN OR ODD(IF ELSE)
+//         EVEN OR ODD(IF ELSE)
 //         Scanner sc = new Scanner(System.in);
 //         int number = sc.nextInt();
         
@@ -248,3 +248,127 @@
         // sc.close();
 //     }
 // }
+
+//LOOPS CONCEPTS
+// import java.util.* ;
+// public class Test {
+//     public static void main(String args[]){
+// PRINT HELLO WORLD 100 TIMES        
+// int counter =0;
+// while(counter < 100) {
+//     System.out.println("Hello World");
+//     counter++;
+//            }
+//            System.out.println("Printed Hello World 100 times" );
+
+
+// PRINT NUMBERS FROM 1 TO 10
+// int counter = 1;
+// while(counter <= 10) {
+//     System.out.println(counter);
+//     counter++;
+//             }
+
+        //PRINT NUMBERS FROM 1 TO n
+        //  Scanner sc = new Scanner(System.in);
+        //  int range = sc.nextInt();
+        //  int counter = 1;
+
+        // while(counter <= range) {
+        //         System.out.print(counter + " ");
+        // counter++;
+        //         }
+
+        // PRINT SUM OF FIRST n NATURAL NUMBERS
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
+        // int sum = 0;
+        // int counter = 1;
+        // while(counter <= n) {
+        //     sum += counter;
+        //     counter++;
+        // }
+        // System.out.println("Sum of first " + n + " natural numbers is: " + sum);
+
+//FOR LOOP
+        //Print Hello World 10 times using for loop
+        // for(int counter = 1; counter <= 10; counter++) {
+        //     System.out.println("Hello World");
+        //}
+
+        //Print Square pattern
+        // for(int line =1; line <= 4; line++) {
+        //     System.out.println("****");
+        // }
+
+        //Print Reverse of a number
+        //n=10899
+        // int n = 10899;
+        // while(n > 0) {
+        //     int lastDigit = n % 10;
+        //     System.out.print(lastDigit);
+        //     n /= 10;
+        // }
+
+        //BREAK STATEMENT
+        // for(int i = 1; i <= 10; i++) {
+        //     if(i == 5) {
+        //         break; // Exit the loop when i is 5
+        //     }
+        //     System.out.println(i);
+        // }
+        // System.out.println("Loop exited at i = 5");
+
+        //KEEP PRINTING UNTIL MULTIPLE OF 10 IS FOUND
+        // Scanner sc = new Scanner(System.in);
+        // do {
+        //     System.out.println("Enter a number:");
+        //     int number = sc.nextInt();
+        //     if(number % 10 == 0) {
+        //         System.out.println("Multiple of 10 found: " + number);
+        //         break; // Exit the loop when a multiple of 10 is found
+        //     }
+        // } while(true);
+
+        //CONTINUE STATEMENT
+        // for(int i = 1; i <= 10; i++) {
+        //     if(i % 2 == 0) {
+        //         continue; // Skip even numbers
+        //     }
+        //     System.out.println(i); // Print only odd numbers
+
+        //DISPLAY ALL NUMBERS ENTERED BY USER EXCEPT MULTIPLES OF 10
+        // Scanner sc = new Scanner(System.in);
+
+        // do {
+        //     System.out.println("Enter a number (enter 0 to exit):");
+        //     int number = sc.nextInt();
+        //     if(number == 0) {
+        //         break; // Exit the loop when user enters 0
+        //     }
+        //     if(number % 10 == 0) {
+        //         continue; // Skip multiples of 10
+        //     }
+        //     System.out.println("You entered: " + number);
+        // } while(true);
+
+//         CHECK PRIME NUMBER
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+//         if (number ==2) {
+//             System.out.println(number + " is a prime number.");
+//         } else{
+//         boolean isPrime = true;
+//         for(int i = 2; i <= Math.sqrt(number); i++) {
+//         if(number % i == 0) {//n is a multiple of i(i is not equal to 1 and n)
+//                 isPrime = false;
+//             }
+//         }
+//         if(isPrime == true) {
+//             System.out.println(number + " is a prime number.");
+//         } else {
+//             System.out.println(number + " is not a prime number.");
+//         }
+//       }    
+//       }
+//       }
